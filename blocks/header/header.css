@@ -8,3 +8,10 @@
     grid-template-columns: calc(92% - 18px) 3% 3%;
     grid-column-gap: 18px;
 }
+
+@media only screen and (min-width: 320px) and (max-width:767px) {
+    .header {
+        max-width: 90%;
+        grid-template-columns: calc(90% - 36px) 7% 7%;
+    }
+}

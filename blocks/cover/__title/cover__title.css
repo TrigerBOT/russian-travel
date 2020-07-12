@@ -1,10 +1,10 @@
 .cover__title {
-    text-align: center;
+    font-weight: 900;
     font-size: 4.5rem;
     line-height: 106%;
     margin: 0 auto;
     width: 560px;
-    align-content: center;
+    text-align: center;
     padding: 20% 0 0;
 }
 
@@ -12,7 +12,8 @@
     .cover__title {
         font-size: 2rem;
         line-height: 109%;
-        width: 288px;
+        width: 250px;
+        padding: 5% 0 0;
     }
 }
 
