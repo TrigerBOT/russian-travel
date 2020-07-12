@@ -1,0 +1,23 @@
+.footer__list-item {
+    display: inline;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 112%;
+}
+
+.footer__list-item+.footer__list-item {
+    margin-left: 1rem;
+}
+
+@media only screen and (min-width: 320px) and (max-width:767px) {
+    .footer__list-item {
+        display: block;
+        font-size: 1.5rem;
+        line-height: 100%;
+        margin: 0;
+        margin-bottom: 2rem;
+    }
+    .footer__list-item+.footer__list-item {
+        margin-left: 0;
+    }
+}
