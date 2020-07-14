@@ -1,0 +1,23 @@
+@import url(./__url-heading/card__url-heading.css);
+@import url(./__title/card__title.css);
+@import url(./__website/card__website.css);
+@import url(./__paragrath-case/card__paragrath-case.css);
+@import url(./__paragrath/card__paragrath.css);
+@import url(./__link/card__link.css);
+@import url(./__image/card__image.css);
+.card {
+    display: grid;
+    grid-template-areas: "title web" "photo p";
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem 2rem;
+}
+
+.card+.card {
+    margin-top: 8.8vw;
+}
+
+@media only screen and (min-width: 320px) and (max-width:767px) {
+    .card {
+        display: block;
+    }
+}

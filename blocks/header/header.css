@@ -1,6 +1,6 @@
 @import url(./__lang-link/header__lang-link.css);
-@import url(./__list-item/header__list-item.css);
 @import url(./__logo/header__logo.css);
+@import url(./__lang-link_active/header__lang-link_active.css);
 .header {
     max-width: 92%;
     margin: 28px auto 0;
@@ -9,7 +9,7 @@
     grid-column-gap: 18px;
 }
 
-@media only screen and (min-width: 320px) and (max-width:767px) {
+@media only screen and (max-width:767px) {
     .header {
         max-width: 90%;
         grid-template-columns: calc(90% - 36px) 7% 7%;
