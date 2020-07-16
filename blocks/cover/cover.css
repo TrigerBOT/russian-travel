@@ -6,15 +6,16 @@
 @import url(./__link/cover__link.css);
 .cover {
     position: relative;
-    margin: 7.2vw auto;
-    max-width: 92%;
+    margin: 0 auto;
+    width: 92%;
     height: 58vw;
     justify-content: center;
+    max-height: 740px;
 }
 
 @media only screen and (max-width:1279px) {
     .cover {
-        max-width: 100%;
+        width: 100%;
     }
 }
 
@@ -27,5 +28,6 @@
 @media only screen and (min-width: 768px) and (max-width:1023px) {
     .cover {
         min-height: 480px;
+        height: 480px;
     }
 }

@@ -5,6 +5,13 @@
     left: 0;
     background: url(../../../images/__background.png) no-repeat;
     height: 58vw;
+    max-height: 740px;
     width: 100%;
-    background-size: 100% 100%;
+    background-size: cover;
+}
+@media only screen and (min-width: 768px) and (max-width:1023px) {
+    .cover__background {
+        
+        height: 480px;
+    }
 }

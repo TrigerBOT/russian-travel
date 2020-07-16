@@ -4,7 +4,7 @@
  @import url(./__link/footer__link.css);
  .footer {
      display: flex;
-     margin: 0 auto;
+     margin: 92px auto 0;
      justify-content: space-between;
      max-width: 92%;
  }
@@ -12,5 +12,11 @@
  @media only screen and (max-width:767px) {
      .footer {
          display: block;
+     }
+ }
+  
+ @media only screen and (min-width:768px) and (max-width:1023px){
+     .footer{
+        margin: 88px auto 0;
      }
  }
